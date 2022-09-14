@@ -1,1 +1,45 @@
-asnkjdansdü (test)
+Aufgabe 1b) 
+Schnürsenkel binden
+iPhone entsperren
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aufgabe 1e) 
+
+Schütte Milch ein:
+	Milch —;
+	return; 
+Trinke Kaffee:
+	kaffee = 0;
+	return;
+
+Probiere Kaffee:
+	if (kaffee_schmeckt):
+		goto Trinke Kaffee;
+	else:
+		if m != 0:
+			goto Schütte Milch ein;
+			goto Probiere Kaffee;
+		else:
+			goto Trinke Kaffee;
+Start: 
+	Milch m;
+	Kaffee k;
+	Probiere Kaffee;
+	end;
