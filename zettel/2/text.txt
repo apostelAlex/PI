@@ -1,0 +1,39 @@
+Aufgabe 1d) 
+- Eine Signatur besteht aus dem Methodennamen und der Variablentypen der Parameter der Methode, 
+welche in Klammern, in der Richtigen Reihenfolge, hinter den Methodennamen geschrieben werden.
+- Signatur der myOwnModulo-Methode:
+    myOwnModulo(int,int)
+
+Aufgabe 1e)
+
+Original mit Fehlerbeschreibung:
+    public class Main {
+       public static void () { // kein Methodenname
+              long int; // unzulässige Variablenbenennung
+              boolean 1Variable = "Hello World!"; // Falsche Variablentypdeklaration, Variablenname darf nicht mit Zahl beginnen
+              double valueA = 42, valueB = 1337; 
+              result = valueA * valueB - 5 // kein Ende des Statements, "result" nicht deklariert
+    }// Ende der Klasse fehlt 
+
+Aus einem mir unerklärlichen Grund, habe ich 7 Fehler gefunden. 
+
+
+Korrektur mit Korrekturbeschreibung: 
+    public class Main {
+        public static void main () { // main als Methodenname hinzugefügt
+            long in; // Variablenbenennung in "in" geändert
+            String variable = "Hello World!"; // Variablentyp zu "String" geändert, Variablenname geändert ("1" am Anfang entfernt)
+            double valueA = 42, valueB = 1337; 
+            double result = valueA * valueB - 5; // Variablentyp von result hinzugefügt ("double"), Ende des Statements hinzugefügt (";")
+        }
+    } // Ende der Main Klasse hinzugefügt
+
+Aufgabe 2
+1.
+	Das Programm gibt aus einer Liste ganzzahliger Werte den größten aus.
+2.
+	Das Programm gibt negativ unendlich aus.
+3.
+	Das Programm gibt den gröten Wert der Liste aus, wenn dieser >= 0 ist. Sonst gibt das Programm 0 aus, das größer ist, als der größte Wert der Liste.
+4.
+	Observer-Methode: in: Liste, out: Text (eigentlich de facto auch Ganzzahl!!)
